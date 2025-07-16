@@ -1,0 +1,9 @@
+#! /usr/bin/env bash
+
+if [[ "$(basename "$PWD")" != "insert-ai" ]]; then
+  echo "Error: Script must be run from the insert-ai directory." 
+  exit 1
+fi
+
+npm uninstall -g .
+npm install -g .
