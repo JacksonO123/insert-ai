@@ -1,0 +1,16 @@
+{
+  "name": "insert-ai",
+  "type": "module",
+  "bin": {
+    "insert-ai": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.14"
+  },
+  "dependencies": {
+    "openai": "^5.9.2"
+  }
+}
