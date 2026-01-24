@@ -11,6 +11,7 @@
     "@types/node": "^24.0.14"
   },
   "dependencies": {
+    "@google/genai": "^1.38.0",
     "openai": "^5.9.2"
   }
 }
