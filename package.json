@@ -1,17 +1,18 @@
 {
-  "name": "insert-ai",
-  "type": "module",
-  "bin": {
-    "insert-ai": "./index.js"
-  },
-  "scripts": {
-    "start": "node index.js"
-  },
-  "devDependencies": {
-    "@types/node": "^24.0.14"
-  },
-  "dependencies": {
-    "@google/genai": "^1.38.0",
-    "openai": "^5.9.2"
-  }
+    "name": "insert-ai",
+    "type": "module",
+    "bin": {
+        "insert-ai": "./src/cli.ts"
+    },
+    "scripts": {
+        "start": "node src/cli.ts",
+        "test": "node test/test.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^24.0.14"
+    },
+    "dependencies": {
+        "@google/genai": "^1.38.0",
+        "openai": "^5.9.2"
+    }
 }
