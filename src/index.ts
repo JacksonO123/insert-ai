@@ -45,7 +45,6 @@ function getStdin() {
     return new Promise<string>((resolve, reject) => {
         let input = "";
 
-        // Resume stdin (it is paused by default)
         process.stdin.resume();
         process.stdin.setEncoding("utf8");
 
