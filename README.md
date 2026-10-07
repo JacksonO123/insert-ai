@@ -4,4 +4,6 @@ Simple program to stream output from openai api as installable command. Used in 
 
 I dont like programming with ai but if i have to its on my terms (ai code editors are off limits). So I have added a custom neovim plugin to give me a very non intrusive way interface for gen ai in my editor.
 
+Ended up never using it lol.
+
 By _Jackson Otto_
